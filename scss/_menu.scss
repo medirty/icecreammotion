@@ -1,3 +1,6 @@
+@import 'font';
+
+
 // mobile 
 .bg-cover {
 	position: fixed;
@@ -63,7 +66,7 @@
 	display: none;
 	margin: 120px 30px;
 	text-decoration: none;
-	font-family: Arial, sans-serif;
+	font-family: $anton;
 	font-weight: 100;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -193,8 +196,10 @@ header {
 
 nav {
   position: fixed;
+  z-index: 1;
   width: 100%;
   line-height: 60px;
+  font-family: $anton;
 }
 
 nav ul {
